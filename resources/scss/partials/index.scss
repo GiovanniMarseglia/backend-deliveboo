@@ -1,0 +1,185 @@
+// $dark-navy-blue:#15182d;
+// $peacoat: #3f3d56;
+// $dark-blue: #03071E ;
+// $light-gray: #e0e2e6;
+// $chocolate: #370617;
+// $dark-red: #6A040F;
+// $red: #9D0208;
+// $light-red: #D00000;
+// $dark-orange: #DC2F02;
+// $orange: #f58115; //(colore link della navbar in versione SM/MD)
+// $base-orange: #ff9654; //(colore link delle navbar LG)
+// $light-orange: #F48C06;
+// $dark-yellow: #FAA307;
+// $yellow: #FFBA08;
+
+
+.bg_card{
+    background-color: $dark-blue;
+}
+
+.index_main{
+    background: linear-gradient(to bottom, #ffb90800 45%,$peacoat 20px);
+}
+
+.card_block{
+    top: 60%;
+}
+
+.button_edit{
+    background-color: $grey;
+}
+
+.button_delete{
+    background-color: $light-red;
+}
+
+.type{
+    background-color: $orange;
+
+}
+
+.img_plate{
+    max-width: 100%;
+
+}
+
+.img_plate img{
+    width: 100%;
+
+}
+
+.blur{
+    filter: blur(3px);
+    transform: scale(102%);
+}
+
+
+@media screen and (max-width:991px){
+
+
+    }
+
+
+@media screen and (max-width:768px){
+    .index_main{
+        background: linear-gradient(to bottom, #ffb90800 12%,$peacoat 20px);
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:589px){
+    .index_main{
+        background: linear-gradient(to bottom, #ffb90800 10%,$peacoat 20px);
+    }
+    .photo-max-h{
+        height: 550px!important;
+     }
+
+     .add_button{
+        top: 130%!important;
+        text-wrap: nowrap;
+    }
+
+    h1{
+        font-size: 2rem!important;
+    }
+}
+
+@media screen and (max-width:375px){
+    .index_main{
+        background: linear-gradient(to bottom, #ffb90800 7%,$peacoat 20px);
+    }
+
+    .add_button{
+        top: 130%;
+        text-wrap: nowrap;
+    }
+
+    h1{
+        font-size: 1.5rem!important;
+    }
+}
+
+
+//stili per le prove
+.photo-max-h{
+   height: 500px;
+}
+
+.menu-restaurant-banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.restaurant-credentials{
+    background-color: rgba(3, 7, 30, 0.658);
+}
+
+
+.restaurant-credentials h1,.restaurant-credentials h3,.restaurant-credentials h4{
+    color: $orange;
+}
+
+.add_button{
+    top: 115%;
+    text-wrap: nowrap;
+}
+
+
+.figure_plate{
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.figure_plate img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.dishes-container{
+    margin-top: -6em;
+    z-index: 1;
+    position: relative;
+}
+.negative-index{
+    z-index: 0;
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.custom-top-banner{
+    top: 35%;
+}
+
+
+
+.table-dish-img{
+    width: 100px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custom-table-container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.available{
+    width: 35px!important;
+    aspect-ratio: 1/1;
+
+}

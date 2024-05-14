@@ -1,0 +1,55 @@
+.dashboard_links_mt{
+    margin-top: 7em;
+}
+
+
+@media screen and (max-width:320px) {
+    figure a{
+        top: 25%;
+    }
+
+    .dashboard_links_mt{
+        margin-top: 3em;
+    }
+}
+
+
+
+//background arancione generico
+.bg-base-orange{
+    background-color: $base-orange;
+}
+//background dark navy blue generico
+.bg-dark-navy-blue{
+    background-color: $dark-navy-blue;
+}
+
+//bottone arancione con effetto all'hover
+.btn-base-orange{
+    background-color: $base-orange;
+    color: white;
+    transition: .3s all ease-out;
+    cursor: pointer;
+    &:hover{
+        background-color: $light-gray;
+        color: black;
+    }
+}
+
+//bottone grigio con effetto all'hover
+.btn-base-gray{
+    background-color: $light-gray;
+    color: black;
+    transition: .3s all ease-out;
+    cursor: pointer;
+    &:hover{
+        background-color: $base-orange;
+        color: white;
+    }
+}
+
+//reset dei tag "a"
+a{
+    text-decoration: none;
+    color: currentColor;
+}
